@@ -5,16 +5,16 @@ import (
 )
 
 type ChallengesData struct {
-	ID         int64    `json:"id"`
-	Type       string   `json:"type"`
-	Name       string   `json:"name"`
-	Value      int64    `json:"value"`
-	Solves     int64    `json:"solves"`
-	SolvedByMe bool     `json:"solved_by_me"`
-	Category   string   `json:"category"`
-	Tags       []string `json:"tags"`
-	Template   string   `json:"template"`
-	Script     string   `json:"script"`
+	ID         int64  `json:"id"`
+	Type       string `json:"type"`
+	Name       string `json:"name"`
+	Value      int64  `json:"value"`
+	Solves     int64  `json:"solves"`
+	SolvedByMe bool   `json:"solved_by_me"`
+	Category   string `json:"category"`
+	// Tags       []string `json:"tags"`
+	// Template   string   `json:"template"`
+	// Script     string   `json:"script"`
 }
 
 type Challenges struct {
